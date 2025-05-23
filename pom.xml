@@ -95,7 +95,7 @@
             <name>The Apache Software License, Version 2.0</name>
             <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
             <distribution>repo</distribution>
-            <comments />
+            <comments/>
         </license>
     </licenses>
 
@@ -110,7 +110,7 @@
         <maven.compiler.release>17</maven.compiler.release>
 
         <!-- dependency versions in alphanumeric order -->
-        <asm.version>9.7.1</asm.version>
+        <asm.version>9.8</asm.version>
         <byte-buddy.version>1.17.2</byte-buddy.version>
         <freemarker.version>2.3.34</freemarker.version>
         <hibernate-validator.version>8.0.2.Final</hibernate-validator.version>
@@ -289,10 +289,10 @@
                         <useDefaultExcludes>true</useDefaultExcludes>
                         <addDefaultLicenseMatchers>false</addDefaultLicenseMatchers>
                         <licenses>
-                            <license implementation="org.apache.rat.analysis.license.ApacheSoftwareLicense20" />
+                            <license implementation="org.apache.rat.analysis.license.ApacheSoftwareLicense20"/>
                         </licenses>
                         <licenseFamilies>
-                            <licenseFamily implementation="org.apache.rat.license.Apache20LicenseFamily" />
+                            <licenseFamily implementation="org.apache.rat.license.Apache20LicenseFamily"/>
                         </licenseFamilies>
                         <includes>
                             <include>pom.xml</include>
@@ -348,7 +348,7 @@
                             <id>enforce</id>
                             <configuration>
                                 <rules>
-                                    <dependencyConvergence />
+                                    <dependencyConvergence/>
                                 </rules>
                             </configuration>
                             <goals>
