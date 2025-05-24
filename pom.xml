@@ -95,7 +95,7 @@
             <name>The Apache Software License, Version 2.0</name>
             <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
             <distribution>repo</distribution>
-            <comments />
+            <comments/>
         </license>
     </licenses>
 
@@ -120,7 +120,7 @@
         <log4j2.version>2.24.3</log4j2.version>
         <maven-surefire-plugin.version>3.5.2</maven-surefire-plugin.version>
         <mockito.version>5.15.2</mockito.version>
-        <ognl.version>3.3.5</ognl.version>
+        <ognl.version>3.4.7</ognl.version>
         <slf4j.version>2.0.16</slf4j.version>
         <spring.version>6.2.3</spring.version>
         <velocity-tools.version>3.1</velocity-tools.version>
@@ -289,10 +289,10 @@
                         <useDefaultExcludes>true</useDefaultExcludes>
                         <addDefaultLicenseMatchers>false</addDefaultLicenseMatchers>
                         <licenses>
-                            <license implementation="org.apache.rat.analysis.license.ApacheSoftwareLicense20" />
+                            <license implementation="org.apache.rat.analysis.license.ApacheSoftwareLicense20"/>
                         </licenses>
                         <licenseFamilies>
-                            <licenseFamily implementation="org.apache.rat.license.Apache20LicenseFamily" />
+                            <licenseFamily implementation="org.apache.rat.license.Apache20LicenseFamily"/>
                         </licenseFamilies>
                         <includes>
                             <include>pom.xml</include>
@@ -348,7 +348,7 @@
                             <id>enforce</id>
                             <configuration>
                                 <rules>
-                                    <dependencyConvergence />
+                                    <dependencyConvergence/>
                                 </rules>
                             </configuration>
                             <goals>
